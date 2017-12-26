@@ -1,6 +1,15 @@
+<a name="0.3.0"></a>
+# 0.3.0 (2017-12-26)
+
+* fix: Fix omitting version commits ([077f1b5](https://github.com/atomixinteractions/conventional-changelog/commit/077f1b5))
+* feat: Add title for `build` commit type ([25060a4](https://github.com/atomixinteractions/conventional-changelog/commit/25060a4))
+
+
+
 <a name="0.2.0"></a>
 # 0.2.0 (2017-12-26)
 
+* 0.2.0 ([78e9f81](https://github.com/atomixinteractions/conventional-changelog/commit/78e9f81))
 * feat: Filter commits with version bump ([d68d2ac](https://github.com/atomixinteractions/conventional-changelog/commit/d68d2ac))
 
 
