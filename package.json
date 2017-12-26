@@ -4,7 +4,7 @@
   "description": "conventional-changelog atomix preset",
   "main": "index.js",
   "scripts": {
-    "lint": "jshint *.js --exclude node_modules && jscs *.js",
+    "lint": "eslint .",
     "test": "mocha --timeout 30000 && npm run-script lint",
     "test-windows": "mocha --timeout 30000"
   },
@@ -38,10 +38,10 @@
     "better-than-before": "^1.0.0",
     "chai": "^3.4.1",
     "conventional-changelog-core": "^1.9.5",
+    "eslint": "^4.14.0",
+    "eslint-config-atomix-base": "^5.1.1",
     "git-dummy-commit": "^1.1.1",
     "istanbul": "^0.4.1",
-    "jscs": "^3.0.7",
-    "jshint": "^2.9.1",
     "mocha": "*",
     "shelljs": "^0.7.3",
     "through2": "^2.0.0"

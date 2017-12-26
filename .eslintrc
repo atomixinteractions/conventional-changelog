@@ -1,0 +1,7 @@
+{
+  "extends": "atomix-base",
+  "rules": {
+    "no-param-reassign": "off",
+    "no-useless-escape": "off"
+  }
+}
