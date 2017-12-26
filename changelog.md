@@ -1,6 +1,14 @@
+<a name="0.3.1"></a>
+## 0.3.1 (2017-12-26)
+
+* feat: Escape html angle brackets ([609c9fb](https://github.com/atomixinteractions/conventional-changelog/commit/609c9fb))
+
+
+
 <a name="0.3.0"></a>
 # 0.3.0 (2017-12-26)
 
+* 0.3.0 ([1d93320](https://github.com/atomixinteractions/conventional-changelog/commit/1d93320))
 * fix: Fix omitting version commits ([077f1b5](https://github.com/atomixinteractions/conventional-changelog/commit/077f1b5))
 * feat: Add title for `build` commit type ([25060a4](https://github.com/atomixinteractions/conventional-changelog/commit/25060a4))
 
