@@ -1,3 +1,10 @@
+<a name="0.2.0"></a>
+# 0.2.0 (2017-12-26)
+
+* feat: Filter commits with version bump ([d68d2ac](https://github.com/atomixinteractions/conventional-changelog/commit/d68d2ac))
+
+
+
 <a name="0.1.2"></a>
 ## 0.1.2 (2017-12-26)
 
