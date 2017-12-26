@@ -15,7 +15,7 @@ function getWriterOpts() {
       //   // discard = false;
       // });
 
-      if (/^\d+\.\d+\.\d+/.test(commit.header)) {
+      if (/^v?\d+\.\d+\.\d+/.test(commit.header)) {
         return
       }
 
