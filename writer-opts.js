@@ -48,6 +48,9 @@ function getWriterOpts() {
       else if (commit.type === 'chore') {
         commit.type = 'Chores'
       }
+      else if (commit.type === 'build') {
+        commit.type = 'Build system'
+      }
 
       if (commit.scope === '*') {
         commit.scope = ''
