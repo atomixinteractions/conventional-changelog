@@ -1,6 +1,14 @@
+<a name="0.3.2"></a>
+## 0.3.2 (2017-12-26)
+
+* fix: Fix header and subject replace html angle brackets ([56f44b4](https://github.com/atomixinteractions/conventional-changelog/commit/56f44b4))
+
+
+
 <a name="0.3.1"></a>
 ## 0.3.1 (2017-12-26)
 
+* 0.3.1 ([1d2698a](https://github.com/atomixinteractions/conventional-changelog/commit/1d2698a))
 * feat: Escape html angle brackets ([609c9fb](https://github.com/atomixinteractions/conventional-changelog/commit/609c9fb))
 
 
