@@ -1,6 +1,7 @@
 <a name="0.1.2"></a>
 ## 0.1.2 (2017-12-26)
 
+* 0.1.2 ([f67ae51](https://github.com/atomixinteractions/conventional-changelog/commit/f67ae51))
 * build(changelog): Print total changelog on version build ([a6d90ec](https://github.com/atomixinteractions/conventional-changelog/commit/a6d90ec))
 
 

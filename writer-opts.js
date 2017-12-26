@@ -15,6 +15,10 @@ function getWriterOpts() {
       //   // discard = false;
       // });
 
+      if (/^\d+\.\d+\.\d+/.test(commit.header)) {
+        return
+      }
+
       if (commit.type === 'feat') {
         commit.type = 'Features'
       }

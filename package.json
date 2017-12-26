@@ -7,7 +7,7 @@
     "lint": "eslint .",
     "test": "mocha --timeout 30000 && npm run-script lint",
     "test-windows": "mocha --timeout 30000",
-    "version": "conventional-changelog -p . -i changelog.md -s -r 0 && git add changelog.md"
+    "version": "conventional-changelog -i changelog.md -s -r 0 && git add changelog.md"
   },
   "repository": {
     "type": "git",
