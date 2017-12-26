@@ -1,3 +1,10 @@
+<a name="0.1.1"></a>
+## 0.1.1 (2017-12-26)
+
+* build(changelog): Print total changelog on version build ([40a703b](https://github.com/atomixinteractions/conventional-changelog/commit/40a703b))
+
+
+
 <a name="0.1.0"></a>
 # 0.1.0 (2017-12-26)
 
