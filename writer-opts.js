@@ -16,7 +16,7 @@ function getWriterOpts() {
       // });
 
       if (/^v?\d+\.\d+\.\d+/.test(commit.header)) {
-        return
+        return undefined
       }
 
       if (commit.type === 'feat') {
@@ -77,9 +77,14 @@ function getWriterOpts() {
           // User URLs.
           commit.subject = commit.subject.replace(/\B@([a-z0-9](?:-?[a-z0-9]){0,38})/g, `[@$1](${context.host}/$1)`)
         }
+
+        commit.subject = commit.subject.replace(/\<+/g, '&lt;').replace(/\>+/g, '&gt;')
       }
 
-      commit.subject = commit.subject.replace(/\<+/g, '&lt;').replace(/\>+/g, '&gt;')
+      if (typeof commit.header === 'string') {
+        commit.header = commit.header.replace(/\<+/g, '&lt;').replace(/\>+/g, '&gt;')
+      }
+
 
       // remove references that already appear in the subject
       commit.references = commit.references.filter((reference) => {
