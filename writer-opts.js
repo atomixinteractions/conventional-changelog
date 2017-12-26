@@ -79,6 +79,8 @@ function getWriterOpts() {
         }
       }
 
+      commit.subject = commit.subject.replace(/\<+/g, '&lt;').replace(/\>+/g, '&gt;')
+
       // remove references that already appear in the subject
       commit.references = commit.references.filter((reference) => {
         if (issues.indexOf(reference.issue) === -1) {
